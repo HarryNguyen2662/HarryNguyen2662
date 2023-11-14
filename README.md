@@ -1,10 +1,13 @@
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&center=true&vCenter=true&random=false&width=435&lines=Welcome+to+my+Github" alt="Typing SVG" /></a>
+  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Welcome%20to%20my%20Github?&font=Fira%20Code&center=true&width=440&height=45&color=ffffff&vCenter=true&pause=1000&size=35" /></a>
 </p>
 
-
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=200&color=00E8FF&background=004549A2&center=true&vCenter=true&random=false&width=435&lines=I+am+Harry+Nguyen" alt="Typing SVG" /></a>
+  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?lines=I'm%20Harry%20Nguyen%20🌻%20;Software%20Engineer%20Intern%20at%20CNCF-Thanos&font=Fira%20Code&center=true&width=1000&height=45&color=ffffff&vCenter=true&pause=1000&size=25" /></a>
 </p>
 
 🙋‍♂️ Thank you for visiting my GitHub profile! 
