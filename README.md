@@ -6,8 +6,7 @@
 
 <p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=I'm%20Sophie%20Nguyen%20🌻%20;Software%20Engineer%20Intern%20at%20CNCF-Thanos&font=Fira%20Code&center=true&width=1000&height=45&color=ffffff&vCenter=true&pause=1000&size=25" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1000&color=00E8FF&background=004549A2&random=false&width=435&lines=I+am+Harry+Nguyen" alt="Typing SVG" /></a>
 </p>
 
 🙋‍♂️ Thank you for visiting my GitHub profile! 
