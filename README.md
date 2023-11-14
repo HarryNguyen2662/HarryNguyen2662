@@ -1,4 +1,14 @@
+<p align="center">
+  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?lines=How%20do%20you%20do?&font=Fira%20Code&center=true&width=440&height=45&color=ffffff&vCenter=true&pause=1000&size=35" /></a>
+</p>
 
+<p align="center">
+  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
+  <a href="https://github.com/DenverCoder1/readme-typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?lines=I'm%20Sophie%20Nguyen%20🌻%20;Software%20Engineer%20Intern%20at%20CNCF-Thanos&font=Fira%20Code&center=true&width=1000&height=45&color=ffffff&vCenter=true&pause=1000&size=25" /></a>
+</p>
 
 🙋‍♂️ Thank you for visiting my GitHub profile! 
 
