@@ -9,7 +9,7 @@
 
 🙋‍♂️ Thank you for visiting my GitHub profile! 
 
-💻 SWE Mentee @ LFX Mentorship || SWE Intern @ Vietnam Tech Society || CS @ GSU || Full Stack Web Dev
+💻 CS @ GSU || Full Stack Web Dev
 
 <hr>
 
@@ -28,10 +28,6 @@
 <span><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript logo" title="TypeScript" height="25" /></span>
 &nbsp;
 <img src = "https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python logo"  title="Python" height="25"/>
-</span>
-&nbsp;
-<span>
-<img src = "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java logo"  title="Java" height="25"/>
 </span>
 &nbsp;
 <br>
