@@ -145,7 +145,7 @@
 <br>
 <div align="center">
 <a href="https://github.com/HarryNguyen2662/HarryNguyen2662">
-<img src="https://ibb.co/PDwvPnz" width="200px" height="200px" alt="Sunflower">
+<a href="https://ibb.co/PDwvPnz"><img src="https://i.ibb.co/PDwvPnz/cloneimagefigma1.png" alt="cloneimagefigma1" border="0"></a>
 </a>
 
 </div>
