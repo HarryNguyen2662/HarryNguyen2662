@@ -141,11 +141,3 @@
   <img src="https://img.icons8.com/bubbles/100/000000/gmail-new.png" alt="sophie-email"/>
   </a>
 </div>
-
-<br>
-<div align="center">
-<a href="https://github.com/SophieNguyen113">
-<img src="[https://wallpapercave.com/wp/wp10580805.jpg](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css)" width="200px" height="200px" alt="Sunflower">
-</a>
-
-</div>
