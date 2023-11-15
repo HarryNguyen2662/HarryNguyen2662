@@ -66,10 +66,7 @@
 &nbsp;
 <span><img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase logo" title="Firebase" height="25"/></span>
 &nbsp;
-<span><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku logo" title="Heroku" height="25"/></span>
-&nbsp;
 <span>
-<span><img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB logo" title="MongoDB" height="25" /></span>
 &nbsp;
 <span>
 <img src = "https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL logo" title="MySQL" height="25"/>
