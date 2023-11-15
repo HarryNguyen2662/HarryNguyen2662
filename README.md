@@ -55,7 +55,7 @@
 &nbsp;
 <span><img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI logo" title="Material UI" height="25" /></span>
 &nbsp;
-<span><img src="https://img.shields.io/badge/Swift%20UI-007FFF?style=for-the-badge&logo=sui&logoColor=white" alt="SwiftUI logo" title="Swift UI" height="25" /></span>
+<span><img src="https://img.shields.io/badge/Swift%20UI-007FFF?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftUI logo" title="Swift UI" height="25" /></span>
 &nbsp;
 ### <u> Backend Development + Database + DevOps + Deployment Technologies & Tools: </u>
 
