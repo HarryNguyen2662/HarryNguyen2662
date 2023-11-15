@@ -33,9 +33,9 @@
 <img src = "https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python logo"  title="Python" height="25"/>
 </span>
 &nbsp;
-<span><img src="https://img.shields.io/badge/C++-1572B6?style=for-the-badge&logo=c++&logoColor=white" alt="C++ logo" title="C++" height="25" /></span>
+<span><img src="https://img.shields.io/badge/C++-E34F26?style=for-the-badge&logo=c++&logoColor=white" alt="C++ logo" title="C++" height="25" /></span>
 &nbsp;
-<span><img src="https://img.shields.io/badge/C-1572B6?style=for-the-badge&logo=c&logoColor=white" alt="C logo" title="C" height="25" /></span>
+<span><img src="https://img.shields.io/badge/C-FFD43B?style=for-the-badge&logo=c&logoColor=white" alt="C logo" title="C" height="25" /></span>
 &nbsp;
 <span><img src="https://img.shields.io/badge/Swift-1572B6?style=for-the-badge&logo=swift&logoColor=white" alt="Swift logo" title="Swift" height="25" /></span>
 &nbsp;
