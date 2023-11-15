@@ -130,7 +130,7 @@
 <hr>
 
 
-## Contact me 🌻
+## Contact me 
 
 <br>
 <div align="center">
@@ -140,4 +140,12 @@
   <a href="mailto:toantoan123toantoan@gmail.com@gmail.com" target="top" rel="noopener noreferrer">
   <img src="https://img.icons8.com/bubbles/100/000000/gmail-new.png" alt="sophie-email"/>
   </a>
+</div>
+
+<br>
+<div align="center">
+<a href="https://github.com/HarryNguyen2662/HarryNguyen2662">
+<img src="https://wallpapercave.com/wp/wp10580805.jpg" width="200px" height="200px" alt="Sunflower">
+</a>
+
 </div>
