@@ -39,6 +39,8 @@
 &nbsp;
 <span><img src="https://img.shields.io/badge/Swift-1572B6?style=for-the-badge&logo=swift&logoColor=white" alt="Swift logo" title="Swift" height="25" /></span>
 &nbsp;
+<span><img src="https://img.shields.io/badge/Dart-1572B6?style=for-the-badge&logo=dart&logoColor=white" alt="Dart logo" title="Dart" height="25" /></span>
+&nbsp;
 <br>
 
 ### <u> Frontend Development Technologies and Tools: </u>
