@@ -55,14 +55,13 @@
 &nbsp;
 <span><img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI logo" title="Material UI" height="25" /></span>
 &nbsp;
-
+<span><img src="https://img.shields.io/badge/Swift%20UI-007FFF?style=for-the-badge&logo=sui&logoColor=white" alt="SwiftUI logo" title="Swift UI" height="25" /></span>
+&nbsp;
 ### <u> Backend Development + Database + DevOps + Deployment Technologies & Tools: </u>
 
 <br>
 
 <span><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js logo" title="Node.js" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Swift%20UI-007FFF?style=for-the-badge&logo=sui&logoColor=white" alt="SwiftUI logo" title="Swift UI" height="25" /></span>
 &nbsp;
 <span><img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase logo" title="Firebase" height="25"/></span>
 &nbsp;
