@@ -12,7 +12,7 @@
 
 🙋‍♂️ Thank you for visiting my GitHub profile!
 
-💻 CS @ GSU || Full Stack Web Dev
+💻 Seeking SWE Internship || CS @ GSU || Full Stack Web + Mobile App Dev
 
 <hr>
 
