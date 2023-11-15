@@ -81,6 +81,10 @@
 </span>
 &nbsp;
 
+<span>
+<img src = "https://img.shields.io/badge/Flutter-20232A?style=for-the-badge&logo=flutter&logoColor=61DAFB" alt="Flutter logo" title="Flutter" height="25"/>
+</span>
+&nbsp;
 
 ### <u> Version Control and Tools:</u>
 
