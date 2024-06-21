@@ -10,7 +10,6 @@
     <img src="https://readme-typing-svg.demolab.com/?lines=I'm%20Harry%20Nguyen%20🐳%20&font=Fira%20Code&center=true&width=1000&height=45&color=808080&vCenter=true&pause=1000&size=25" /></a>
 </p>
 
-
 🙋‍♂️ Thank you for visiting my GitHub profile!
 
 💻 Seeking SWE Internship || CS @ GSU || Full Stack Web + Mobile App Dev
