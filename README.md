@@ -14,7 +14,7 @@
 
 🙋‍♂️ Thank you for visiting my GitHub profile!
 
-💻 Seeking SWE Internship || CS @ GSU || Full Stack Web + Mobile App Dev
+💻 Prev SWE Intern @ Google & @ Develop For Good & @ Coderpush || Scholar @ CodePath E3 || CS @ GSU
 
 <hr>
 
