@@ -30,7 +30,7 @@ I'm a CS undergrad at **Georgia State University** (May 2027), building **applie
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" width="20"/> TiMoto AI · Software Engineer · Sep 2025 to present
 
-Primary engineer for backend, cloud infrastructure, and AI systems on a 3-person team.
+Primary engineer for backend, cloud infrastructure, and AI systems on a 15-person team.
 
 - 🤖 Built an **agentic tool-calling system** that fixes bugs from PR diffs and logs, gated by pre-deploy tests and auto-rollback. MTTR from **45 min to under 8 min** across 150+ issues, **30-35%** of bugs auto-resolved.
 - 🔍 Raised **retrieval Precision@5 from 68% to 91%** with hybrid BM25/vector search over engineering docs, and cut data-access latency **70%** with an **MCP server** routing AI tools to cached read-replicas.
