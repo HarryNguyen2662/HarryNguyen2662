@@ -1,153 +1,83 @@
-<p align="center">
-  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Welcome%20to%20my%20Github&font=Fira%20Code&center=true&width=440&height=45&color=808080&vCenter=true&pause=1000&size=30" /></a>
-</p>
-
+<h1 align="center">Harry Nguyen</h1>
 
 <p align="center">
-  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=I'm%20Harry%20Nguyen%20🐳%20&font=Fira%20Code&center=true&width=1000&height=45&color=808080&vCenter=true&pause=1000&size=25" /></a>
+  <b>Applied AI systems and production infrastructure.</b><br>
+  CS @ Georgia State (May 2027) &nbsp;·&nbsp; SWE @ TiMoto AI &nbsp;·&nbsp; prev. SWE Intern @ Google Chrome
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/harrynguyen26/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:nguyenharry2662@gmail.com">nguyenharry2662@gmail.com</a> &nbsp;·&nbsp;
+  <a href="https://nexteasystep.com/">nexteasystep.com</a>
+</p>
 
-🙋‍♂️ Thank you for visiting my GitHub profile!
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" height="24" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" height="24" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" height="24" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" height="24" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" height="24" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" height="24" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" height="24" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" height="24" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" height="24" />
+</p>
 
-💻 Prev SWE Intern @ Google & @ Develop For Good & @ Coderpush || Scholar @ CodePath E3 || CS @ GSU
+---
 
-<hr>
+I work where AI systems meet production: agents that act on real systems, retrieval that has to be accurate, and inference that has to stay up.
 
+### TiMoto AI &nbsp;·&nbsp; Software Engineer &nbsp;·&nbsp; Sep 2025 to present
 
-## 🚀💻 Technologies & Tools
+Primary engineer for backend, cloud infrastructure, and AI systems on a 3-person team.
 
-### <u> Languages: </u>
+- Built an **agentic tool-calling system** that fixes bugs from PR diffs and logs, gated by pre-deploy tests and auto-rollback. MTTR from 45 min to under 8 min across 150+ issues, 30-35% of bugs auto-resolved.
+- Raised **retrieval Precision@5 from 68% to 91%** with hybrid BM25/vector search over engineering docs, and cut data-access latency 70% with an **MCP server** routing AI tools to cached read-replicas.
+- Increased **LLM serving throughput 3.2x** (14 to 45 req/sec) with a **vLLM/PagedAttention** engine, cutting KV cache fragmentation from 65% to under 4% and ending OOM failures at peak hours.
+- Migrated EKS to multi-AZ **ECS Fargate** under **Terraform**, cutting infra cost 44% while holding 99.9% uptime, with observability built from zero on Prometheus/Grafana.
 
-<br>
+### Google &nbsp;·&nbsp; SWE Intern, Chrome Browser &nbsp;·&nbsp; Summer 2025
 
-<span><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 logo" title="HTML5" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 logo" title="CSS3" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript logo" title="TypeScript" height="25" /></span>
-&nbsp;
-<img src = "https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python logo"  title="Python" height="25"/>
-</span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/C++-E34F26?style=for-the-badge&logo=c++&logoColor=white" alt="C++ logo" title="C++" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/C-FFD43B?style=for-the-badge&logo=c&logoColor=white" alt="C logo" title="C" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Swift-FFFFFF?style=for-the-badge&logo=swift&logoColor=orange" alt="Swift logo" title="Swift" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Dart-1572B6?style=for-the-badge&logo=dart&logoColor=white" alt="Dart logo" title="Dart" height="25" /></span>
-&nbsp;
-<br>
+- Rebuilt `chrome://privacy-sandbox-internals` with a **C++** interface exposing browser config over IPC, used by **200+ engineers**, cutting per-case debug data collection from 2-3 hours to under 5 min.
+- Merged a **C++ Mojo IPC** interface into Chrome passing Protobuf-serialized state, benchmarked at sub-50ms p99 and 10K+ req/sec.
+- Cut settings search p99 from **1,200ms to sub-50ms** by replacing a linear scan with a self-implemented **lock-free concurrent trie**.
 
-### <u> Frontend Development Technologies and Tools: </u>
+### Develop for Good &nbsp;·&nbsp; SWE Intern &nbsp;·&nbsp; Summer 2024
 
-<br>
+- Moved CW3, a global Web3 community, off Airtable as primary backend engineer on a 12-person team, serving 500+ concurrent sessions.
+- Cut user list load time from 3+ seconds to sub-100ms on 10,000+ records by replacing an N+1 query pattern with batched queries and PostgreSQL indexing.
 
-<span><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="ReactJS logo" title="ReactJS" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="Redux logo" title="Redux" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS logo" title="TailwindCSS" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI logo" title="Material UI" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Swift%20UI-007FFF?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftUI logo" title="Swift UI" height="25" /></span>
-&nbsp;
-### <u> Backend Development + Database + DevOps + Deployment Technologies & Tools: </u>
+---
 
-<br>
+## Projects
 
-<span><img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js logo" title="Node.js" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase logo" title="Firebase" height="25"/></span>
-&nbsp;
-<span>
-<img src = "https://img.shields.io/badge/Hive-005C84?style=for-the-badge&logo=hive&logoColor=white" alt="Hive logo" title="Hive" height="25"/>
-</span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker logo" title="Docker Code" height="25" /></span>
-&nbsp;
+**[NextStep](https://nexteasystep.com/)** &nbsp;·&nbsp; Founder &nbsp;·&nbsp; `TypeScript` `React` `Expo` `Supabase` `Terraform`
 
-### <u> Mobile App Development Technologies & Tools: </u>
+AI copilot that tracks deadlines and obligations in household documents, live for ~100 users.
 
-<br>
+- Cut per-field extraction error from **37% to 9%** with deterministic schema validation and multi-pass repair, routing the remaining 7% to manual review instead of shipping bad output silently.
+- Built an **LLM router** with automatic failover across Gemini, OpenAI, OpenRouter, and NVIDIA NIM: request completion from 92-94% to **99.7%**, malformed structured output reaching the client from 12-15% to under 0.3%.
+- Resumable upload pipeline handling files up to 500 MiB in 8 MiB chunks that survives network drops and client restarts, under a 302-test suite.
 
-<span>
-<img src = "https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native logo" title="React Native" height="25"/>
-</span>
-&nbsp;
+**[Pulumi](https://github.com/pulumi/pulumi)** &nbsp;·&nbsp; Open Source Contributor &nbsp;·&nbsp; `Go` `TypeScript` `IaC`
 
-<span>
-<img src = "https://img.shields.io/badge/Flutter-20232A?style=for-the-badge&logo=flutter&logoColor=61DAFB" alt="Flutter logo" title="Flutter" height="25"/>
-</span>
-&nbsp;
+Go CLI features and fixes for multi-cloud (AWS/Azure/GCP) provisioning, plus Raft/Paxos consensus test cases verifying correctness under concurrent operations and partial failures.
 
-### <u> Version Control and Tools:</u>
+---
 
-<br>
+## Stack
 
-<span><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="git logo" title="Git" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github logo" title="Github" height="25" /></span>
-&nbsp;
+| | |
+|---|---|
+| **AI systems** | LLM agents, tool calling, MCP, hybrid retrieval (RAG), schema-constrained generation, evals, vLLM, PagedAttention |
+| **Backend & infra** | AWS, Terraform, Kubernetes, Docker, gRPC, Protocol Buffers, CI/CD, Prometheus, Grafana |
+| **Languages** | C++, Python, Go, TypeScript, Java, JavaScript, SQL, Rust, Bash |
+| **Data** | PostgreSQL, pgvector, Redis, MongoDB |
+| **Frameworks** | Django, FastAPI, Node.js, React |
+| **AI dev tools** | Claude Code, Cursor, Codex, GitHub Copilot |
 
-### <u> Operating Systems and Others:</u>
+---
 
-<br>
-
-<span>
-<img src = "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux Logo"  title="Linux" height="25"/>
-</span>
-&nbsp;
-<span>
-<img src = "https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu Logo"  title="Ubuntu" height="25"/>
-</span>
-&nbsp;
-<span>
-<img src = "https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Logo"  title="Windows" height="25"/>
-</span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="Visual Studio Code logo" title="Visual Studio Code" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=for-the-badge&logo=vim&logoColor=white" alt="Vim logo" title="Vim" height="25" /></span>
-&nbsp;
-<span><img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" alt="Neovim logo" title="Neovim" height="25" /></span>
-
-<br>
-<br>
-
-<i> Recently, I'm also learning: </i>
-
-<span><img src="https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL logo" title="GraphQL" height="25" /></span>
-&nbsp;
-
-<br>
-
-<hr>
-
-## Contact me
-
-<br>
-<div align="center">
-  <a href="[https://www.linkedin.com/in/sophienguyen113/](https://www.linkedin.com/in/harry-nguyen-538bb5253/)" target="_blank"  rel="noopener noreferrer">
-    <img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="sophie-linkedin" />
-  </a>
-  <a href="mailto:toantoan123toantoan@gmail.com@gmail.com" target="top" rel="noopener noreferrer">
-  <img src="https://img.icons8.com/bubbles/100/000000/gmail-new.png" alt="sophie-email"/>
-  </a>
-</div>
-
-<br>
-<div align="center">
-<a href="https://github.com/HarryNguyen2662/HarryNguyen2662">
-<a href="https://ibb.co/PDwvPnz"><img src="https://i.ibb.co/PDwvPnz/cloneimagefigma1.png" alt="cloneimagefigma1" border="0"></a>
-</a>
-
-</div>
+<p align="center">
+  <i>Open to New Grad SWE roles starting 2027: backend, distributed systems, ML infrastructure, SRE.</i>
+</p>
