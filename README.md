@@ -30,23 +30,28 @@ I'm a CS undergrad at **Georgia State University** (May 2027), building **applie
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" width="20"/> TiMoto AI · Software Engineer · Sep 2025 to present
 
-Primary engineer for backend, cloud infrastructure, and AI systems on a 15-person team.
+Primary engineer for backend, cloud infrastructure, and AI systems on a small team.
 
-- 🤖 Built an **agentic tool-calling system** that fixes bugs from PR diffs and logs, gated by pre-deploy tests and auto-rollback. MTTR from **45 min to under 8 min** across 150+ issues, **30-35%** of bugs auto-resolved.
+- 🤖 Shipped an **AI agent** that fixes production bugs from PR diffs and logs behind tests and auto-rollback, cutting a small team's debug time from about 45 to **under 8 min** over 150+ issues in 2 months, **95% fully automated**.
+- 🏗️ Built the motorbike-valuation backend from zero on **AWS Fargate**; since AI valuations can take minutes, split it into a **Django REST API**, a private **gRPC** evaluator, and a **WebSocket** service that notifies the app when done.
 - 🔍 Raised **retrieval Precision@5 from 68% to 91%** with hybrid BM25/vector search over engineering docs, and cut data-access latency **70%** with an **MCP server** routing AI tools to cached read-replicas.
-- ⚡ Increased **LLM serving throughput 3.2x** (14 to 45 req/sec) with a **vLLM/PagedAttention** engine, cutting KV cache fragmentation from 65% to under 4%.
-- ☁️ Migrated EKS to multi-AZ **ECS Fargate** under **Terraform**: infra cost down **44%**, **99.9% uptime**, observability built from zero on Prometheus/Grafana.
+- ☁️ Redesigned an over-provisioned **$5K/month EKS** setup onto multi-AZ **ECS Fargate** (**Terraform**) with Grafana monitoring: cost down **44%** to under $3K/month at **99.9% uptime** over 4 months, root cause found in under 15 min.
+- ⚡ Diagnosed out-of-memory failures on 6-8% of peak-hour LLM requests as **65% KV cache fragmentation**; moving serving to **vLLM** cut fragmentation under 4%, with no failures in 4 months, and raised throughput **3.2x** (14 to 45 req/sec).
+- 🐛 Traced ML evaluation accuracy stuck at **57%** to a production **gRPC deadlock** that truncated responses into wrong results; enforcing one lock order raised accuracy to **87%**.
+- 🤝 Partnered with ops, sales, marketing, product, and the founder to fix the company-wide AI agent, which gave staff wrong answers, reorganizing its knowledge base by team with **RAG** and a knowledge graph and speeding replies from 30-40s to 5-10s.
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original.svg" width="20"/> Google · SWE Intern, Chrome Browser · Summer 2025
 
-- 🧩 Rebuilt `chrome://privacy-sandbox-internals` with a **C++** interface exposing browser config over IPC, used by **200+ engineers**, cutting per-case debug data collection from 2-3 hours to **under 5 min**.
-- 🔗 Merged a **C++ Mojo IPC** interface into Chrome passing Protobuf-serialized state, benchmarked at **sub-50ms p99** and **10K+ req/sec**.
-- 🌲 Cut settings search p99 from **1,200ms to sub-50ms** by replacing a linear scan with a self-implemented **lock-free concurrent trie**.
+- 🧩 Interviewed teams losing 2-3 hours per case to logs and DB dumps; rebuilt `chrome://privacy-sandbox-internals` with a **C++** IPC config reader, shipped to stable in 78 changes, bringing it **under 5 min** for **200+ engineers**.
+- 🌲 Wrote the design doc for a **lock-free trie** in the browser process after settings search took 1,200ms at p99 because it scanned linearly while IPC kept writing new keys, bringing it **under 50ms**.
+- 🔗 Root-caused stale tabs and renderer crashes, via bug-tracker repros and call stacks, to sub-teams' panels mutating one shared state object; moved the page to an event-driven observer model, closing **45 related bugs**.
+- 🧪 Fixed about 30 page tests that timed out mid-run because checks fired before UI data loaded; a testing design doc made tests wait for data first, taking the suite from **2 hours to 10 min**.
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="20"/> Develop for Good · SWE Intern · Summer 2024
 
-- 🌍 Moved CW3, a global Web3 community, off Airtable as primary backend engineer on a 12-person team, serving **500+ concurrent sessions**.
-- 🏎️ Cut user list load time from 3+ seconds to **sub-100ms** on 10,000+ records by replacing an N+1 query pattern with batched queries and PostgreSQL indexing.
+- 🏎️ Sped up the member list for CW3, a global Web3 community, from 3+ seconds to **under 100ms** over 10,000+ records by batching N+1 queries and adding PostgreSQL indexes.
+- 🌍 Moved CW3 off Airtable, which had become cluttered and hard to use, to Appwrite as primary backend engineer on a 12-person team, with profile-based member matching for meetups, serving **500+ concurrent users**.
+- ⚙️ Automated manual weekly deploys with a **GitHub Actions** CI/CD pipeline, cutting them from 15 to 5 min.
 
 ---
 
@@ -54,11 +59,11 @@ Primary engineer for backend, cloud infrastructure, and AI systems on a 15-perso
 
 ### [NextStep](https://nexteasystep.com/) · Founder
 
-AI copilot that tracks deadlines and obligations in household documents, live for **~100 users**.
+AI copilot that tracks deadlines and obligations in household documents, live for **100 real users**.
 
-- Cut per-field extraction error from **37% to 9%** with deterministic schema validation and multi-pass repair, routing the remaining 7% to manual review instead of shipping bad output silently.
+- Cut per-field extraction error from **37% to 9%** by switching the model and harness and adding deterministic schema validation with multi-pass repair, routing the remaining 7% to manual review instead of shipping bad output silently.
 - Built an **LLM router** with automatic failover across Gemini, OpenAI, OpenRouter, and NVIDIA NIM: request completion **92-94% to 99.7%**, malformed structured output reaching the client from 12-15% to **under 0.3%**.
-- Resumable upload pipeline handling files up to **500 MiB** in 8 MiB chunks, surviving network drops and client restarts, under a **302-test** suite.
+- Resumable upload pipeline handling files up to **500 MiB** in 8 MiB chunks on private Supabase Storage (RLS) and Terraform-managed Cloud Run and KMS, surviving network drops and client restarts, under a **302-test** suite.
 
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
@@ -70,7 +75,7 @@ AI copilot that tracks deadlines and obligations in household documents, live fo
 
 ### [Pulumi](https://github.com/pulumi/pulumi) · Open Source Contributor
 
-Go CLI features and fixes for multi-cloud (AWS/Azure/GCP) provisioning, plus **Raft/Paxos consensus** test cases verifying correctness under concurrent operations and partial failures.
+Open-source infrastructure-as-code tool for managing AWS, Azure, GCP, and Kubernetes in Go, Python, or TypeScript. Submitted Go CLI features and fixes for multi-cloud (AWS/Azure/GCP) provisioning, in maintainer review, plus **Raft/Paxos consensus** test cases (submitted) verifying correctness under concurrent operations and partial failures.
 
 <p>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
@@ -97,15 +102,15 @@ Go CLI features and fixes for multi-cloud (AWS/Azure/GCP) provisioning, plus **R
 </tr>
 </table>
 
-### AI & Agent Systems
+### Agentic Systems
 
 <p>
   <img src="https://img.shields.io/badge/LLM_Agents-412991?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Tool_Calling-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
   <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white"/>
   <img src="https://img.shields.io/badge/RAG_·_Hybrid_Retrieval-1A7F64?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Schema--Constrained_Generation-2E6FDB?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/vLLM-FD4B4B?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/PagedAttention-2E6FDB?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Evals-6E40C9?style=for-the-badge"/>
 </p>
 
@@ -158,5 +163,5 @@ Go CLI features and fixes for multi-cloud (AWS/Azure/GCP) provisioning, plus **R
 </p>
 
 <p align="center">
-  <i>Open to New Grad SWE roles starting 2027: backend, distributed systems, ML infrastructure, SRE.</i>
+  <i>Open to New Grad SWE roles starting 2027: backend, distributed systems, applied AI systems, ML infrastructure, SRE.</i>
 </p>
